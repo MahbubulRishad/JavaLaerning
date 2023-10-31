@@ -7,5 +7,11 @@ public class MainTest {
         System.out.println(bracBank.getInterest());
         System.out.println(bracBank.getSavingInterest());
         System.out.println(bracBank.getSonaliBankExtraBonus());
+
+        System.out.println("===========");
+
+        SonaliBank sonaliBank = new BracBank();
+        System.out.println(sonaliBank.getSonaliBankExtraBonus());
+        System.out.println(sonaliBank.getSavingInterest());
     }
 }
